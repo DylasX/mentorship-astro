@@ -1,0 +1,55 @@
+---
+import Icon from 'astro-icon';
+---
+
+<section
+  transition:animate='fade'
+  class='shadow-lg bg-white rounded md:rounded-lg w-full md:w-1/2 ml-auto mr-auto'
+>
+  <div class='relative inline-block w-full'>
+    <img
+      src='https://glw-website-strapi-content.s3.amazonaws.com/20_years_blog_header_d70f3de954.jpeg'
+      alt='Astropod | Free Serverless Podcast banner'
+      class='object-cover w-full aspect-[3/1] md:rounded-lg'
+    /><div
+      class='absolute top-0 left-0 items-center justify-center w-full h-full bg-gradient-to-t from-gray-900 to-60% md:to-40% to-transparent'
+    >
+      <div class='flex flex-col absolute bottom-0 px-3 right-0'>
+        <h1 class='mb-0 md:mb-3 text-lg lg:text-4xl font-bold text-white'>
+          Miguel Sierra
+        </h1><p
+          class='mb-1 text-xs md:text-sm font-light text-white text-right'
+        >
+          Sr Consultant
+        </p>
+      </div>
+    </div>
+    <div
+      class='absolute top-1 xl:top-2 2xl:top-4 left-4 w-[30%] h-auto border-4 rounded-xl'
+    >
+      <img
+        src='https://glw-website-strapi-content.s3.amazonaws.com/20_years_blog_header_d70f3de954.jpeg'
+        alt='Astropod | Free Serverless Podcast banner'
+        class='object-cover w-full aspect-[1/1] rounded-lg'
+      />
+    </div>
+  </div>
+  <div class='w-full h-12 flex flex-row'>
+    <div class='flex w-full gap-4 items-center'>
+      <a
+        href='/mentor/mario'
+        class='w-1/2 text-center inline-flex justify-center text-sky-700 hover:text-sky-900'
+      >
+        <Icon name='ph:users-thin' class='w-6 mr-2' />
+        <h2 class='font-light'>Mentorship</h2>
+      </a>
+      <a
+        href='#'
+        class='w-1/2 text-center inline-flex justify-center text-gray-600 hover:text-sky-800 border-l-2'
+      >
+        <Icon name='ph:address-book-thin' class='w-6 mr-2' />
+        <h2 class='font-light'>CDP</h2>
+      </a>
+    </div>
+  </div>
+</section>
